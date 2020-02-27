@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\trungnhan.vu\\source\\repos\\DatingApp\\DatingApp\\DatingApp.csproj": {}
+    "C:\\Users\\trungnhan.vu\\source\\repos\\DatingApp\\DatingApp\\DatingApp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\trungnhan.vu\\source\\repos\\DatingApp\\DatingApp\\DatingApp.csproj": {
+    "C:\\Users\\trungnhan.vu\\source\\repos\\DatingApp\\DatingApp\\DatingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\trungnhan.vu\\source\\repos\\DatingApp\\DatingApp\\DatingApp.csproj",
+        "projectUniqueName": "C:\\Users\\trungnhan.vu\\source\\repos\\DatingApp\\DatingApp\\DatingApp.csproj",
         "projectName": "DatingApp",
-        "projectPath": "c:\\Users\\trungnhan.vu\\source\\repos\\DatingApp\\DatingApp\\DatingApp.csproj",
+        "projectPath": "C:\\Users\\trungnhan.vu\\source\\repos\\DatingApp\\DatingApp\\DatingApp.csproj",
         "packagesPath": "C:\\Users\\trungnhan.vu\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\trungnhan.vu\\source\\repos\\DatingApp\\DatingApp\\obj\\",
+        "outputPath": "C:\\Users\\trungnhan.vu\\source\\repos\\DatingApp\\DatingApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

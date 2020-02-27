@@ -48,7 +48,7 @@ namespace DatingApp.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddPhotoForUser(int userId, PhotoForCreationDto photoForCreationDto) 
+        public async Task<IActionResult> AddPhotoForUser(int userId, [FromForm]PhotoForCreationDto photoForCreationDto) 
         {
             if (userId != int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value))
                 return Unauthorized(); 
@@ -64,7 +64,7 @@ namespace DatingApp.Controllers
                 {
                     var uploadParams = new ImageUploadParams() 
                     {
-                        File = new FileDescription(file.Name),
+                        File = new FileDescription(file.Name, stream),
                         Transformation = new Transformation().Width(500).Height(500).Crop("fill").Gravity("face")
                     };
 

@@ -267,3 +267,4 @@ C:\Users\trungnhan.vu\source\repos\DatingApp\DatingApp\bin\Debug\netcoreapp3.1\M
 C:\Users\trungnhan.vu\source\repos\DatingApp\DatingApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\trungnhan.vu\source\repos\DatingApp\DatingApp\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Users\trungnhan.vu\source\repos\DatingApp\DatingApp\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\trungnhan.vu\source\repos\DatingApp\DatingApp\bin\Debug\netcoreapp3.1\CloudinaryDotNet.dll
