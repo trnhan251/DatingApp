@@ -4,14 +4,16 @@ using DatingApp.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DatingApp.Migrations
 {
     [DbContext(typeof(DbApplicationContext))]
-    partial class DbApplicationContextModelSnapshot : ModelSnapshot
+    [Migration("20200227153652_AddedPublicid")]
+    partial class AddedPublicid
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
